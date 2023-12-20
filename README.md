@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# Hangman Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hangman Game is a simple React-based web application that allows users to play the classic word-guessing game. Players can guess letters using both physical and on-screen keyboards.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributors](#contributors)
+- [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+Hangman Game is a web application that brings the classic hangman game to your browser. It provides an interactive and entertaining way to guess words and learn new vocabulary.
 
-## Expanding the ESLint configuration
+## Features
+- Play Hangman using a physical keyboard or on-screen keyboard.
+- Simple and intuitive user interface.
+- Randomly generated words for a variety of gameplay.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
+Hangman Game is built using the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+- **React:** A JavaScript library for building user interfaces.
+- **Vite:** A fast React development environment.
+- **TypeScript:** A superset of JavaScript that adds static typing.
+- **CSS Modules:** CSS file scoped locally to each component.
+  
+## Installation
+To try out Hangman Game locally, follow these steps:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository: `git clone https://github.com/yourusername/hangman-game.git`
+2. Navigate to the project directory: `cd hangman-game`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+Enjoy playing Hangman:
+
+- Open the application in your browser.
+- Use your physical keyboard or the on-screen keyboard to guess letters.
+- Try to guess the word before running out of attempts.
+
+## Screenshots
+![screenshot1](./src/assets/Screenshot%202023-12-20%20at%202.54.12%20PM.png)
+![screenshot2](./src/assets/Screenshot%202023-12-20%20at%202.54.48%20PM.png)
+
+## Contributors
+- Taylor Gehrts: wrote code and deployed
+- Kyle/ WebDevSimplified: provided the tutorial I followed
+  https://github.com/WebDevSimplified
+
+## Questions
+For any inquiries or feedback, feel free to reach out:
+- GitHub: [taylorgehrts](https://github.com/taylorgehrts)
+- Email: [taylorgehrts@gmail.com](mailto:taylorgehrts@gmail.com).
