@@ -36,10 +36,13 @@ To try out Hangman Game locally, follow these steps:
 3. Install dependencies: `npm install`
 4. Start the application: `npm start`
 
+Or Simply play the game here https://taylorgehrts.github.io/Hangmann/
+
+
 ## Usage
 Enjoy playing Hangman:
 
-- Open the application in your browser.
+- Open the application in your browser at https://taylorgehrts.github.io/Hangmann/
 - Use your physical keyboard or the on-screen keyboard to guess letters.
 - Try to guess the word before running out of attempts.
 
